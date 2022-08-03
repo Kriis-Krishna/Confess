@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/drawable/ic_baseline_favorite_border_20.xml" value="0.2245" />
+        <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/drawable/ic_baseline_more_vert_20.xml" value="0.2245" />
+        <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/drawable/ic_baseline_read_more_20.xml" value="0.2245" />
+        <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/drawable/ic_baseline_volume_down_24.xml" value="0.2245" />
+        <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/drawable/ic_round_comment_20.xml" value="0.2245" />
+        <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/drawable/ic_round_edit_note_24.xml" value="0.2245" />
+        <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/drawable/ic_round_filter_alt_20.xml" value="0.2245" />
+        <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/drawable/ic_round_switch_left_20.xml" value="0.2245" />
+        <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/drawable/ic_round_volume_down_24.xml" value="0.2245" />
+        <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/layout/activity_home.xml" value="0.30052083333333335" />
+        <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/layout/confessions_recycler_view_template.xml" value="0.30052083333333335" />
+        <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/layout/fragment_home.xml" value="0.30052083333333335" />
+        <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/menu/bottom_nav_menu.xml" value="0.30052083333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
