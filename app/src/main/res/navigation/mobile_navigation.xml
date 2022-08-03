@@ -9,11 +9,11 @@
         android:id="@+id/navigation_home"
         android:name="com.example.confess.ui.home.HomeFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_confession" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
         android:name="com.example.confess.ui.dashboard.DashboardFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_journal" />
 </navigation>

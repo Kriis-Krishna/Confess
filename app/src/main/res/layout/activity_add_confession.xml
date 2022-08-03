@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddConfession">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/Add_Confession_Layout"
+        android:background="?android:colorBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/Add_Confession_Sub_Linear_Layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/Add_Confession_Title_Bar"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="New Confession"
+                android:textColor="@color/grey_001"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <!--            <ImageButton-->
+            <!--                android:id="@+id/Add_Confession_Icon_02"-->
+            <!--                android:layout_width="40dp"-->
+            <!--                android:layout_height="40dp"-->
+            <!--                android:background="?actionBarItemBackground"-->
+            <!--                android:src="@drawable/ic_round_filter_alt_20" />-->
+
+            <ImageButton
+                android:id="@+id/Add_Confession_Icon_01"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="?actionBarItemBackground"
+                android:src="@drawable/ic_round_done_20" />
+        </LinearLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="start"
+        android:hint="My confession is ..."
+        android:textColor="@color/grey_001"
+        android:layout_margin="15dp"
+        android:background="@null"
+        android:inputType="textMultiLine"
+        android:minLines="10"
+        android:maxLines="20"
+        android:maxLength="256"
+        android:textSize="14dp"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Draft     "
+            android:textSize="10dp"
+            android:textColor="@color/grey_001"
+            android:gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingStart="10dp"
+            android:paddingEnd="50dp"
+            android:clickable="true"
+            android:background="?selectableItemBackground"
+            android:drawableRight="@drawable/ic_baseline_save_alt_20" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="     Publish"
+            android:textSize="10dp"
+            android:textColor="@color/grey_001"
+            android:gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingStart="50dp"
+            android:paddingEnd="10dp"
+            android:clickable="true"
+            android:background="?selectableItemBackground"
+            android:drawableLeft="@drawable/ic_round_done_20" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

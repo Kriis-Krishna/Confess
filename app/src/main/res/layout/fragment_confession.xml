@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/Home_Main_Linear_Layout"
+    tools:context=".ui.home.HomeFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/Confession_App_Bar_Layout"
+        android:background="?android:colorBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/Confession_App_Bar_Sub_Linear_Layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/Confession_App_Bar_Title_Bar"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Confession"
+                android:textColor="@color/grey_001"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/Confession_App_Bar_Icon_02"-->
+<!--                android:layout_width="40dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:background="?actionBarItemBackground"-->
+<!--                android:src="@drawable/ic_round_filter_alt_20" />-->
+
+            <ImageButton
+                android:id="@+id/Confession_App_Bar_Icon_01"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="?actionBarItemBackground"
+                android:src="@drawable/ic_baseline_more_vert_20" />
+        </LinearLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Home_Recycler_View"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
