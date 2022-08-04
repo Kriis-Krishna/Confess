@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".AddJournal">
+    tools:context=".AddJournal"
+    tools:ignore="HardcodedText,RtlSymmetry" >
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/Add_Confession_Layout"
@@ -23,15 +25,15 @@
 
             <TextView
                 android:id="@+id/Add_Confession_Title_Bar"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-condensed"
                 android:gravity="center_vertical"
-                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
                 android:text="My Journal"
                 android:textColor="@color/grey_001"
-                android:textSize="16dp"
+                android:textSize="16sp"
                 android:textStyle="bold" />
 
             <!--            <ImageButton-->
@@ -46,7 +48,8 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:background="?actionBarItemBackground"
-                android:src="@drawable/ic_round_done_20" />
+                android:src="@drawable/ic_round_done_20"
+                android:contentDescription="Publish journal" />
         </LinearLayout>
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -55,49 +58,51 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:paddingLeft="15dp"
-        android:paddingRight="10dp">
+        android:paddingTop="10dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="10dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-condensed"
             android:gravity="center"
-            android:text="25"
+            android:text="00"
             android:textColor="@color/accent_001"
-            android:textSize="32dp"
+            android:textSize="36sp"
             android:textStyle="bold" />
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:orientation="vertical"
             android:gravity="center"
-            android:paddingLeft="10dp">
+            android:paddingStart="10dp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed"
-                android:text="August, 2021"
+                android:text="January, 2021"
                 android:layout_gravity="bottom"
                 android:textColor="@color/grey_001"
-                android:textSize="14dp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed"
-                android:text="Saturday"
+                android:text="Monday"
                 android:textColor="@color/grey_001"
-                android:textSize="10dp" />
+                android:textSize="11sp" />
         </LinearLayout>
         <ImageButton
             android:layout_width="40dp"
             android:layout_height="match_parent"
             android:background="?actionBarItemBackground"
-            android:src="@drawable/ic_round_edit_calendar_20" />
+            android:src="@drawable/ic_round_edit_calendar_20"
+            android:contentDescription="Change journal date" />
     </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatEditText
@@ -113,7 +118,17 @@
         android:minLines="10"
         android:maxLines="20"
         android:maxLength="256"
-        android:textSize="14dp"/>
+        android:textSize="14sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/Character_Length_Warning"
+        android:gravity="center"
+        android:textColor="@color/grey_002"
+        android:padding="10dp"
+        android:textSize="11sp" />
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
@@ -125,7 +140,7 @@
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:text="Draft     "
-            android:textSize="10dp"
+            android:textSize="11sp"
             android:textColor="@color/grey_001"
             android:gravity="center"
             android:fontFamily="sans-serif-condensed"
@@ -133,13 +148,14 @@
             android:paddingEnd="50dp"
             android:clickable="true"
             android:background="?selectableItemBackground"
-            android:drawableRight="@drawable/ic_baseline_save_alt_20" />
+            app:drawableRightCompat="@drawable/ic_baseline_save_alt_20"
+            android:focusable="true" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:text="     Publish"
-            android:textSize="10dp"
+            android:textSize="11sp"
             android:textColor="@color/grey_001"
             android:gravity="center"
             android:fontFamily="sans-serif-condensed"
@@ -147,7 +163,8 @@
             android:paddingEnd="10dp"
             android:clickable="true"
             android:background="?selectableItemBackground"
-            android:drawableLeft="@drawable/ic_round_done_20" />
+            app:drawableLeftCompat="@drawable/ic_round_done_20"
+            android:focusable="true" />
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 

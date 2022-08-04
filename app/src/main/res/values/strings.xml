@@ -3,4 +3,6 @@
     <string name="title_activity_home">Home</string>
     <string name="title_home">Confession</string>
     <string name="title_dashboard">Journals</string>
+    <string name="title_profile">Profile</string>
+    <string name="Character_Length_Warning">Note : Maximum of 256 characters and 20 line breaks are allowed</string>
 </resources>

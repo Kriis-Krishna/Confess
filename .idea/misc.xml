@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/drawable/ic__speaker_icon_100.xml" value="0.2245" />
+        <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/drawable/ic_authorize_icon_24.xml" value="0.2245" />
         <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/drawable/ic_baseline_favorite_border_20.xml" value="0.2245" />
         <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/drawable/ic_baseline_more_vert_20.xml" value="0.2245" />
         <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/drawable/ic_baseline_read_more_20.xml" value="0.2245" />
@@ -13,16 +15,21 @@
         <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/drawable/ic_round_edit_calendar_20.xml" value="0.2245" />
         <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/drawable/ic_round_edit_note_24.xml" value="0.2245" />
         <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/drawable/ic_round_filter_alt_20.xml" value="0.2245" />
+        <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/drawable/ic_round_person_24.xml" value="0.155" />
         <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/drawable/ic_round_switch_left_20.xml" value="0.2245" />
         <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/drawable/ic_round_volume_down_24.xml" value="0.2245" />
         <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/layout/activity_add_confession.xml" value="0.30052083333333335" />
         <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/layout/activity_add_journal.xml" value="0.30052083333333335" />
+        <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/layout/activity_authorize.xml" value="0.2466866182129115" />
         <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/layout/activity_home.xml" value="0.30052083333333335" />
         <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/layout/confessions_recycler_view_template.xml" value="0.30052083333333335" />
+        <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/layout/fragment_confession.xml" value="0.30052083333333335" />
         <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/layout/fragment_dashboard.xml" value="0.30052083333333335" />
         <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/layout/fragment_home.xml" value="0.30052083333333335" />
         <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/layout/fragment_journal.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/layout/fragment_profile.xml" value="0.2466866182129115" />
+        <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/layout/journal_recycler_view_template.xml" value="0.2994791666666667" />
         <entry key="..\:/Users/kriis/AndroidStudioProjects/Confess/app/src/main/res/menu/bottom_nav_menu.xml" value="0.30052083333333335" />
       </map>
     </option>

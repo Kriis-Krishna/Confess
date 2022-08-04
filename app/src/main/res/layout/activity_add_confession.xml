@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".AddConfession">
+    tools:context=".AddConfession"
+    tools:ignore="HardcodedText,RtlSymmetry" >
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/Add_Confession_Layout"
@@ -23,16 +25,17 @@
 
             <TextView
                 android:id="@+id/Add_Confession_Title_Bar"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-condensed"
                 android:gravity="center_vertical"
-                android:paddingLeft="10dp"
-                android:text="New Confession"
+                android:paddingStart="11dp"
+                android:text="Add Confession"
                 android:textColor="@color/grey_001"
-                android:textSize="16dp"
-                android:textStyle="bold" />
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="RtlSymmetry" />
 
             <!--            <ImageButton-->
             <!--                android:id="@+id/Add_Confession_Icon_02"-->
@@ -46,7 +49,8 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:background="?actionBarItemBackground"
-                android:src="@drawable/ic_round_done_20" />
+                android:src="@drawable/ic_round_done_20"
+                android:contentDescription="Publish confession" />
         </LinearLayout>
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -56,7 +60,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-condensed"
         android:gravity="start"
-        android:hint="My confession is ..."
+        android:hint="Type your confession here ..."
         android:textColor="@color/grey_001"
         android:layout_margin="15dp"
         android:background="@null"
@@ -64,7 +68,17 @@
         android:minLines="10"
         android:maxLines="20"
         android:maxLength="256"
-        android:textSize="14dp"/>
+        android:textSize="14sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/Character_Length_Warning"
+        android:gravity="center"
+        android:textColor="@color/grey_002"
+        android:padding="10dp"
+        android:textSize="11sp" />
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
@@ -76,7 +90,7 @@
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:text="Draft     "
-            android:textSize="10dp"
+            android:textSize="11sp"
             android:textColor="@color/grey_001"
             android:gravity="center"
             android:fontFamily="sans-serif-condensed"
@@ -84,13 +98,14 @@
             android:paddingEnd="50dp"
             android:clickable="true"
             android:background="?selectableItemBackground"
-            android:drawableRight="@drawable/ic_baseline_save_alt_20" />
+            app:drawableEndCompat="@drawable/ic_baseline_save_alt_20"
+            android:focusable="true" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:text="     Publish"
-            android:textSize="10dp"
+            android:textSize="11sp"
             android:textColor="@color/grey_001"
             android:gravity="center"
             android:fontFamily="sans-serif-condensed"
@@ -98,7 +113,8 @@
             android:paddingEnd="10dp"
             android:clickable="true"
             android:background="?selectableItemBackground"
-            android:drawableLeft="@drawable/ic_round_done_20" />
+            app:drawableStartCompat="@drawable/ic_round_done_20"
+            android:focusable="true" />
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
