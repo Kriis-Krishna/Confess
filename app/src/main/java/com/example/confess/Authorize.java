@@ -12,6 +12,6 @@ public class Authorize extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_authorize);
 
-//        startActivity(new Intent(getApplicationContext(), Home.class));
+        startActivity(new Intent(getApplicationContext(), Home.class));
     }
 }

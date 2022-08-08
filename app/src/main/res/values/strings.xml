@@ -5,4 +5,6 @@
     <string name="title_dashboard">Journals</string>
     <string name="title_profile">Profile</string>
     <string name="Character_Length_Warning">Note : Maximum of 256 characters and 20 line breaks are allowed</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
